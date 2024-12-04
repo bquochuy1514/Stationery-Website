@@ -569,3 +569,24 @@ footer a:hover {
 .clr-one {
     animation: changing 1.6s linear infinite;
 }
+
+@keyframes changing {
+    0% {
+        background-color: #c32bfb;
+    }
+    40% {
+        background-color: #e30abf;
+        opacity: 0.5;
+    }
+    60% {
+        background-color: #cc41ff;
+        opacity: 0.4;
+    }
+    80% {
+        background-color: #b60af5;
+        opacity: 0.6;
+    }
+    100% {
+        background-color: #c32bfb;
+    }
+}
