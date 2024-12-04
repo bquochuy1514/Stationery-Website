@@ -222,6 +222,7 @@ figure img {
     left: 50%;
     border-radius: var(--border-radius-full);
     opacity: 0.4;
+    filter: blur(100px);
 }
 /* Universal End */
 
@@ -567,7 +568,11 @@ footer a:hover {
 }
 
 .clr-one {
-    animation: changing 1.6s linear infinite;
+    animation: changing 2.5s linear infinite;
+}
+
+.clr-two {
+    animation: changing 2.5s linear infinite;
 }
 
 @keyframes changing {
